@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Firebase + FastAPI Website</title>
+  <script defer src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to the Simple Website</h1>
+  <div id="auth-container">
+    <button id="login-btn">Login with Google</button>
+    <button id="logout-btn" style="display:none;">Logout</button>
+  </div>
+  <form id="protected-form" style="display:none;">
+    <input type="text" id="item-name" placeholder="Name" required>
+    <input type="text" id="item-desc" placeholder="Description" required>
+    <button type="submit">Send to API</button>
+  </form>
+</body>
+</html>
